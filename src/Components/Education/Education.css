@@ -1,0 +1,134 @@
+#work {
+    background-color: #f2e6e1;
+    width:100%;
+    height: auto;
+    padding:20px;
+}
+
+.work-section{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-item {
+    width:100%;
+    margin:15px 5px;    
+    background-color: white;
+    padding:10px;   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px; */
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    border-radius: 10px;
+}
+
+.work-time .company {
+    font-weight: bold;
+    font-size: 18px;
+  
+    color:#c84600
+}
+
+.work-time .year {
+    margin-left:5px;
+    font-size: 12px;
+    font-style: italic;
+   
+}
+
+.work-information{
+    padding-left:20px;
+}
+
+.work-information__title{
+    font-weight: bold;
+    font-size: 14px;
+    color: #222;
+}
+
+.timeline {
+    width:40%;
+    margin:auto;
+    margin-top: 10px;
+}
+
+.timeline-wrapper {
+    position: relative;
+    padding: 22px 0;
+}
+
+.timeline-wrapper:last-child:before {
+    height: 0;
+}
+
+.timeline-wrapper:before {
+    content: "";
+    background: #474559;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 38px;
+}
+
+.timeline-yr {
+    background-color: #FF5800;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    line-height: 75px;
+    text-align: center;
+}
+
+.timeline-yr span {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    line-height: 75px;   
+}
+
+.timeline-info {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 432px;
+    margin-left: 6em;
+}
+
+.timeline-info small {
+    color: #474559;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.main-heading .underline.width150{
+    width:150px; 
+
+}
+
+/* Extra Extra small devices (412px and down) */
+@media only screen and (max-width: 412px) {     
+    .work-section{
+        width: 90%;       
+    }
+    .timeline {
+        width:80%;    
+    }
+  }
+
+/* Extra small devices (phones, between 412pxand 600px) */
+@media only screen and (min-width: 412px) and (max-width: 600px) {     
+    .work-section{
+        width: 90%;       
+    }
+    .timeline {
+        width:80%;    
+    }
+  }

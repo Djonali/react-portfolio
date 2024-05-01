@@ -1,0 +1,62 @@
+#projects{
+    /* background-color: #f2e6e1;  */
+    background-color: #111;
+    padding: 20px;
+}
+
+.card{
+    background-color: #fff;
+    height: 250px;
+    padding:16px 20px;  
+}
+
+.card:hover{    
+    transform: scale(1.1);
+    transition: all 1s linear;
+}
+
+.card-title{
+    color: #c84600 !important;
+}
+ 
+.project-item{
+    padding: 25px !important;
+}
+
+.card .tools{
+    margin:5px 0px;
+}
+
+.tools .tools-item{
+    padding:5px 10px;
+    border-radius: 5px;  
+    background-color:#eee;
+    margin:5px;
+    color: #ff5800;
+    font-weight: 500;
+    font-size: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px; 
+}
+
+.card .card-text{
+  width:100%;
+  height: 40px;  
+}
+
+.card .action-links{
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+.card .action-links a{
+    text-decoration: none;
+    color: #eee;
+    background-color: #ff5800;
+    padding: 3px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+

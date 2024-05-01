@@ -1,0 +1,48 @@
+#contact{
+    background-color: #111;
+    color:white;
+    padding:20px;
+}
+
+.contact-details{
+    padding:5px;
+}
+
+.contact-detail{
+  display: flex;
+  margin:20px 2px;
+}
+
+.contact-detail svg{
+    margin-right:10px;   
+}
+
+.contact-submit{
+    width: 150px;
+    padding:5px;
+    color:white;
+    background-color: #ff5800;
+    border:none;
+    border-radius: 5px;  
+    
+}
+
+.contact-box{
+    width:70%;
+   margin:auto !important;
+}
+
+/* Extra Extra small devices (412px and down) */
+@media only screen and (max-width: 412px) {     
+    .contact-box{
+        width:90%;       
+    }
+  }
+
+/* Extra small devices (phones, between 412pxand 600px) */
+@media only screen and (min-width: 412px) and (max-width: 600px) {     
+    .contact-box{
+        width:90%;     
+    }
+  }
+
