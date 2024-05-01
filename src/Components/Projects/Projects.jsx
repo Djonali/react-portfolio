@@ -93,13 +93,13 @@ const Projects = () => {
               </div>
               <div className="action-links">
                 <a
-                  href="https://djonali.github.io/chat-app-css-illustration/"
+                  href="https://djonali.github.io/react-portfolio/"
                   className="card-link"
                 >
                   Live
                 </a>
                 <a
-                  href="https://github.com/Djonali/chat-app-css-illustration"
+                  href="https://github.com/Djonali/react-portfolio"
                   className="card-link"
                 >
                   Git Hub
